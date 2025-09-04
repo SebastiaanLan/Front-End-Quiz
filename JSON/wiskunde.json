@@ -1,0 +1,62 @@
+[
+    {
+        "vraag": "Wat is de uitkomst van 7 × 8?",
+        "opties": ["56", "64", "48", "54"]
+    },
+    {
+        "vraag": "Hoeveel graden heeft een hoek in een gelijkzijdige driehoek?",
+        "opties": ["60°", "90°", "45°", "120°"]
+    },
+    {
+        "vraag": "Wat is de formule voor de oppervlakte van een cirkel?",
+        "opties": ["πr²", "2πr", "r²", "πd"]
+    },
+    {
+        "vraag": "Wat is de afgeleide van f(x) = x²?",
+        "opties": ["2x", "x", "x²", "2"]
+    },
+    {
+        "vraag": "Hoeveel zijden heeft een regelmatige vijfhoek?",
+        "opties": ["5", "6", "4", "8"]
+    },
+    {
+        "vraag": "Wat is de waarde van √144?",
+        "opties": ["12", "14", "10", "16"]
+    },
+    {
+        "vraag": "Hoeveel is 25% van 200?",
+        "opties": ["50", "25", "100", "75"]
+    },
+    {
+        "vraag": "Wat is de omtrek van een rechthoek met zijden 8 en 5?",
+        "opties": ["26", "40", "13", "30"]
+    },
+    {
+        "vraag": "Wat is de kans om bij een dobbelsteen een even getal te gooien?",
+        "opties": ["1/2", "1/3", "1/6", "2/3"]
+    },
+    {
+        "vraag": "Wat is het gemiddelde van de getallen 4, 8, 12 en 16?",
+        "opties": ["10", "12", "8", "14"]
+    },
+    {
+        "vraag": "Hoeveel is 9³?",
+        "opties": ["729", "81", "243", "6561"]
+    },
+    {
+        "vraag": "Wat is de waarde van π (benaderd)?",
+        "opties": ["3,14", "3,41", "3,24", "3,04"]
+    },
+    {
+        "vraag": "Wat is de volgende term in de reeks: 2, 4, 8, 16, ...?",
+        "opties": ["32", "20", "24", "18"]
+    },
+    {
+        "vraag": "Hoeveel graden is een rechte hoek?",
+        "opties": ["90°", "45°", "180°", "60°"]
+    },
+    {
+        "vraag": "Wat is het kleinste priemgetal?",
+        "opties": ["2", "1", "3", "5"]
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "vraag": "Wie was de eerste Romeinse keizer?",
+        "opties": ["Augustus", "Caesar", "Nero", "Titus"]
+    },
+    {
+        "vraag": "Welk jaar eindigde de tweede wereldoorlog?",
+        "opties": ["1945", "1948", "1918", "1933"]
+    },
+    {
+        "vraag": "Wie ontdekte Amerika in 1492?",
+        "opties": ["Christoffel Columbus", "Vasco da Gama", "Ferdinand Magellaan", "Marco Polo"]
+    },
+    {
+        "vraag": "Welke gebeurtenis wordt vaak gezien als het begin van de Franse Revolutie?",
+        "opties": ["Bestorming van de Bastille", "Slag bij Waterloo", "De kruistochten", "De Reformatie"]
+    },
+    {
+        "vraag": "In welk jaar werd de Berlijnse Muur afgebroken?",
+        "opties": ["1989", "1991", "1979", "1961"]
+    },
+    {
+        "vraag": "Wie was de leider van de Sovjet-Unie tijdens de Cubacrisis?",
+        "opties": ["Chroesjtsjov", "Stalin", "Gorbatsjov", "Lenin"]
+    },
+    {
+        "vraag": "Hoe heette het schip waarmee de Pilgrims in 1620 naar Amerika voeren?",
+        "opties": ["Mayflower", "Santa Maria", "Endeavour", "Victoria"]
+    },
+    {
+        "vraag": "Wie werd in 1933 rijkskanselier van Duitsland?",
+        "opties": ["Adolf Hitler", "Paul von Hindenburg", "Joseph Goebbels", "Otto von Bismarck"]
+    },
+    {
+        "vraag": "Welk rijk bouwde de Chinese Muur?",
+        "opties": ["Qin-dynastie", "Han-dynastie", "Tang-dynastie", "Ming-dynastie"]
+    },
+    {
+        "vraag": "Wat was de hoofdstad van het Byzantijnse Rijk?",
+        "opties": ["Constantinopel", "Rome", "Athene", "Alexandrië"]
+    },
+    {
+        "vraag": "Wie was de Britse premier tijdens de Tweede Wereldoorlog?",
+        "opties": ["Winston Churchill", "Neville Chamberlain", "Clement Attlee", "Margaret Thatcher"]
+    },
+    {
+        "vraag": "Welke ontdekking deed Johannes Gutenberg beroemd?",
+        "opties": ["Boekdrukkunst", "Stoommachine", "Kompas", "Telescoop"]
+    },
+    {
+        "vraag": "Welke oorlog stond bekend als 'de Grote Oorlog' voor de Tweede Wereldoorlog?",
+        "opties": ["Eerste Wereldoorlog", "Napoleontische oorlogen", "Zevenjarige Oorlog", "Koude Oorlog"]
+    },
+    {
+        "vraag": "In welk land begon de industriële revolutie?",
+        "opties": ["Engeland", "Duitsland", "Frankrijk", "Verenigde Staten"]
+    },
+    {
+        "vraag": "Wie was de koningin van Egypte die een relatie had met Julius Caesar?",
+        "opties": ["Cleopatra", "Nefertiti", "Hatshepsut", "Merneith"]
+    }
+]
