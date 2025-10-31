@@ -3,16 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz - welkom</title>
+    <title>Quiz</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hippe Quiz</h1>
-    <form action="/keuze.html" name="form" onsubmit="return checkNaam()" >
-        <label>Wat is je naam?</label>
-        <input type="text" placeholder="Jouw naam" name="name">
+    <main id="container">
+        <header>
+            <h1 id="headerText">Quiz</h1>
+        </header>
 
-        <input type="submit" value="Start Quiz">
-    </form>
+        <section id="startScherm">
+            <p>
+                Welkom bij de quiz app, nadat je je naam hiernonder heb ingevuld kan je een keuze maken over welke quiz je wilt maken. 
+                In de quiz heb je voor elke vraag 15 seconden en voor elke vraag die je goed heb beantwoord krijg je 1 punt.
+                Elke quiz thema bestaat uit 15 vragen.
+            </p>
+
+            <form name="form" onsubmit="return verwerkNaam()" >
+                <fieldset>
+                    <legend>Wat is je naam?</legend>
+                    <input type="text" placeholder="Jouw naam" name="name" required>
+                    <input type="submit" value="Start Quiz">
+                </fieldset>
+            </form>
+        </section>
+
+        <section id="keuzeScherm">
+            <button class="keuzeKnoppen" onclick="verwerkKeuze('geschiedenis')">Geschiedenis</button>
+            <button class="keuzeKnoppen" onclick="verwerkKeuze('wiskunde')">Wiskunde</button>
+            <button class="keuzeKnoppen" onclick="verwerkKeuze('economie')">Economie</button>
+        </section>
+
+        <section id="quizScherm">
+            <div id="vraagMid">
+                <div id="timerDiv">
+                    <h2 id="timer"></h2>
+                </div>
+
+                <img id="imgVraag" alt="Afbeelding vraag">
+
+                <div style="width:64px; height:64px;">
+                    <p id="naamText"></p>
+                </div>
+            </div>
+
+            <div id="knoppenContainer">
+                <button class="knop" id="groen"></button>
+                <button class="knop" id="blauw"></button>
+                <button class="knop" id="rood"></button>
+                <button class="knop" id="paars"></button>
+            </div>
+        </section>
+
+        <section id="eindScherm">
+                <h1>Je hebt <span id="puntenOutput"></span> van de <span id="maxPuntenOutput"></span> punten behaald</h1>
+
+                <button onClick="laadStartScherm()">Doe de quiz opnieuw</button>
+
+                <div id="scoreboard">
+                    <h2>Scoreboard</h2>
+
+                    <ol>
+                        <li class="scoreboardList"></li>
+                        <li class="scoreboardList"></li>
+                        <li class="scoreboardList"></li>
+                    </ol>
+                </div>
+                
+                <div id="fouteVragen"></div>
+        </section>
+    </div>
 
     <script src="main.js"></script>
 </body>

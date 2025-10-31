@@ -1,0 +1,42 @@
+[
+    {
+        "vraag": "Wat is de betekenis van 'inflatie'?",
+        "opties": ["Stijging van het algemene prijsniveau", "Daling van de werkloosheid", "Toename van export", "Groei van het bbp"]
+    },
+    {
+        "vraag": "Wat meet het bruto binnenlands product (bbp)?",
+        "opties": ["De totale waarde van alle geproduceerde goederen en diensten", "Het aantal inwoners in een land", "De hoeveelheid geld in omloop", "De totale belastingopbrengst"]
+    },
+    {
+        "vraag": "Wat is een oligopolie?",
+        "opties": ["Een markt met enkele grote aanbieders", "Een markt met veel kleine aanbieders", "Een markt met één aanbieder", "Een markt zonder concurrentie"]
+    },
+    {
+        "vraag": "Welke instelling bepaalt in de eurozone de rentevoet?",
+        "opties": ["Europese Centrale Bank (ECB)", "Wereldbank", "Internationaal Monetair Fonds (IMF)", "Europese Commissie"]
+    },
+    {
+        "vraag": "Wat is een voorbeeld van een indirecte belasting?",
+        "opties": ["Btw", "Inkomstenbelasting", "Vennootschapsbelasting", "Vermogensbelasting"]
+    },
+    {
+        "vraag": "Wat wordt bedoeld met 'vraag en aanbod'?",
+        "opties": ["Het mechanisme dat prijzen bepaalt", "De totale productie van een land", "De overheidsuitgaven", "Het spaargedrag van gezinnen"]
+    },
+    {
+        "vraag": "Wat is een recessie?",
+        "opties": ["Een periode van economische krimp", "Een sterke prijsstijging", "Een situatie met hoge werkgelegenheid", "Een langdurige handelsoverschot"]
+    },
+    {
+        "vraag": "Wat is het doel van sparen op een bankrekening?",
+        "opties": ["Rente ontvangen en vermogen opbouwen", "Belastingen ontwijken", "Directe consumptie verhogen", "De staatsschuld aflossen"]
+    },
+    {
+        "vraag": "Wat is globalisering?",
+        "opties": ["Het sterker worden van internationale verbondenheid", "De groei van lokale markten", "Het beperken van handel tussen landen", "Het afschaffen van technologie"]
+    },
+    {
+        "vraag": "Wat is het verschil tussen micro- en macro-economie?",
+        "opties": ["Micro gaat over individuen en bedrijven, macro over de economie als geheel", "Micro gaat over internationale handel, macro over nationale handel", "Micro richt zich op belastingen, macro op sparen", "Micro gaat over inflatie, macro over winsten"]
+    }
+]

@@ -1,0 +1,175 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid;
+    width: 75%;
+    height: 80%;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 20%;
+}
+
+header h1 {
+    padding: 0;
+    margin: 0;
+}
+
+#keuzeScherm {
+    display: none;
+    flex-direction: row;
+    width: 60%;
+}
+
+.keuzeKnoppen {
+    background-color: blue;
+    color: white;
+    margin-top: 10px;
+    padding: 25px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+.keuzeKnoppen:hover {
+    background-color: rgb(0, 0, 200);
+}
+
+#quizScherm {
+    display: none;
+}
+
+#vraagMid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+}
+
+#timerDiv {
+    background-color: blue;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 64px;
+    padding: 2px;
+    width: 64px;
+    height: 64px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#knoppenContainer {
+    margin: 16px;
+    padding: 24px;
+    width: 60%;
+    height: 100%;
+}
+
+#knoppenContainer button {
+    margin: 5px;
+    width: 45%;
+    height: 60px;
+    font-size: 16px;
+}
+
+p {
+    width: 50%;
+}
+
+#groen {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: 0;
+}
+
+#blauw {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: 0;
+}
+
+#rood {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: 0;
+}
+
+#paars {
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    border: 0;
+}
+
+#eindScherm {
+    display: none;
+}
+
+#scoreboard h2 {
+    margin-bottom: 0;
+}
+
+#scoreboard ol {
+    margin: 0;
+    text-align: left;
+}
+
+#fouteVragen {
+    overflow-y: auto;
+    padding: 25px;
+    max-height: 300px;
+    width: 60%;
+    margin: 20px auto 0;
+    border: solid black 1px;
+    box-sizing: border-box;
+}
+#fouteVragen div {
+    background-color: rgb(196, 196, 255);
+    margin-bottom: 15px;
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 3px;
+}
